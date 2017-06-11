@@ -1,18 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="eng">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Random Quote Generator</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>
     <script src="random_quote.js"></script>
+    <link rel="stylesheet" type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <p id = "quote">Place for quote</p>
-    <p id = "quoteAuthor">author</p>
-    <button id = "clickMeButton">Click Me</button>
-    <button id="tweetButton" type="button" class="btn btn-default"
-      data-toggle="tooltip" data-placement="bottom"
-      title="Press to Tweet">Tweet</button>
+    <div class="jumbotron text-center">
+      <div class="container-fluid">
+        <p id = "quote">Place for quote</p>
+        <p id = "quoteAuthor">author</p>
+      </div>
+      <div class="container-fluid">
+        <button id = "clickMeButton">Click Me</button>
+        <button id="tweetButton" type="button" class="btn btn-default"
+            data-toggle="tooltip" data-placement="bottom"
+            title="Press to Tweet">Tweet</button>
+      </div>
+    </div>
   </body>
 </html>
