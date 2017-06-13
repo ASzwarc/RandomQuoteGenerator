@@ -14,17 +14,22 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-      <div class="container-fluid text-center">
-        <div class="row">
-          <div class="col-md-4">
-              <p id = "quote">Place for quote</p>
-              <p id = "quoteAuthor">author</p>
-            <button id = "clickMeButton">Click Me</button>
-            <button id="tweetButton" type="button" class="btn btn-default"
-                data-toggle="tooltip" data-placement="bottom"
-                title="Press to Tweet">Tweet</button>
-          </div>
+    <div class="flex-container">
+        <div class="flex-item" id="quoteBox">
+          <p id = "quote">Place for quote</p>
+          <p id = "quoteAuthor">author</p>
         </div>
-      </div>
+        <div class="flex-item" id="buttonBox">
+          <button id ="clickMeButton" type="button" class="btn btn-default"
+                  data-toggle="tooltip" data-placement="bottom"
+                  title="Press for next quote">Quote</button>
+          <button id="tweetButton" type="button" class="btn btn-default"
+                  data-toggle="tooltip" data-placement="bottom"
+                  title="Press to Tweet">Tweet</button>
+        </div>
+    </div>
+    <footer>Quote generation made by courtesy of
+      <a href="https://forismatic.com/en/api/">Forismatic API</a>
+    </footer>
   </body>
 </html>
