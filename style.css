@@ -29,3 +29,7 @@ body {
     height: 200px;
     color: #558C89;
 }
+
+#aboutBox {
+  padding: 0px;
+}
